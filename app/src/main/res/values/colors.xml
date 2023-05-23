@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="backgroundLayout">#1F3569</color>
+    <color name="cardLayout">#53616F</color>
+    <color name="calification">#BBE001</color>
+    <color name="buttonColor">#1A449C</color>
 </resources>

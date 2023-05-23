@@ -5,7 +5,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".informacionPeriodicoFragment">
+        tools:context=".ui.periodico.billboard.informacionPeriodicoFragment">
 
         <!-- TODO: Update blank fragment layout -->
         <TextView

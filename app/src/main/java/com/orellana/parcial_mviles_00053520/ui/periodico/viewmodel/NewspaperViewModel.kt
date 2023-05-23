@@ -17,10 +17,10 @@ class NewspaperViewModel(private val repository: NewspaperRepository) : ViewMode
     fun addNews(newspaper: NewspaperModel) = repository.addNews(newspaper)
 
     fun createNews(){
-        if (!validateData()){
+        /*if (!validateData()){
             status.value = WRONG_INFORMATION
             return
-        }
+        }*/
         val newspaper = NewspaperModel(
             name.value!!,
             pubYear.value!!,
@@ -28,7 +28,7 @@ class NewspaperViewModel(private val repository: NewspaperRepository) : ViewMode
         )
         addNews(newspaper)
         clearData()
-        status.value = NEWSPAPER_CREATED
+        /*status.value = NEWSPAPER_CREATED*/
     }
 
     fun validateData():Boolean{
